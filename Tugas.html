@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Website</title>
+    <style>
+        /* Reset some default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2rem 0;
+        }
+
+        .hero {
+            text-align: center;
+        }
+
+        .about,
+        .services,
+        .portfolio,
+        .contact {
+            text-align: center;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to My Awesome Website</h1>
+            <p>Your go-to destination for amazing content</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Web Design</li>
+                <li>Graphic Design</li>
+                <li>SEO Optimization</li>
+                <li>Content Writing</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="gallery">
+                <img src="portfolio1.jpg" alt="Project 1">
+                <img src="portfolio2.jpg" alt="Project 2">
+                <img src="portfolio3.jpg" alt="Project 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <form action="submit.php" method="post">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Awesome Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
